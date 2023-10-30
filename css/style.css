@@ -459,19 +459,19 @@ header.sticky{
     }
 
     :root{
-        --h1-font: 4.6rem;
+        --h1-font: 3.6rem;
         --h2-font: 2.8rem;
         --p-font: 15px;
     }
 
     .home{
-        height: 90vh;
+        height: 140vh;
     }
 }
 
 @media (max-width: 1050px){
     .feature-content{
-        gap: 1.5re;
+        gap: 1.5rem;
     }
 
     .holiday{
@@ -531,12 +531,12 @@ header.sticky{
 
 @media (max-width: 600px){
     :root{
-        --h1-font: 3.5rem;
+        --h1-font: 2.5rem;
         --h2-font: 2.1rem;
     }
 
     .home{
-        height: 85vh;
+        height: 120vh;
     }
 }
 
@@ -550,6 +550,27 @@ header.sticky{
     }
 
     section{
-        padding: 60px 3% 50px;
+        padding: 115px 2% 30px;
     }
+
+    .h-right a{
+        font-size: 15px;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+
+    #menu-icon{
+        font-size: 20px;
+    }
+
+    .newsletter-content form input:first-child{
+        padding: 0px;
+    }
+
+    .btn{
+        padding: 3px 5px;
+        font-size: 12px;
+    }
+
+
 }
