@@ -549,6 +549,10 @@ header.sticky{
         padding: 7px 3%;
     }
 
+    .logo{
+        font-size: 15px;
+    }
+
     section{
         padding: 115px 2% 30px;
     }
@@ -568,8 +572,8 @@ header.sticky{
     }
 
     .btn{
-        padding: 3px 5px;
-        font-size: 12px;
+        padding: 3px 0px;
+        font-size: 7px;
     }
 
 
