@@ -582,4 +582,9 @@ header.sticky{
         padding: 3px 0px;
         font-size: 7px;
     }
+
+    .newsletter-content form input:first-child{
+        padding: 3px;
+    }
+    
 }
