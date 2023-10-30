@@ -572,9 +572,14 @@ header.sticky{
     }
 
     .btn{
+        padding: 3px 5px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 350px){
+    .btn{
         padding: 3px 0px;
         font-size: 7px;
     }
-
-
 }
